@@ -88,7 +88,7 @@ Send `Authorization: Bearer <token>` for anything marked "login needed".
 ## Test the whole flow with curl
 
 ```bash
-# Register Rahul and Priya
+# Register Arunima and Raisa
 curl -X POST localhost:8080/register -d '{"name":"Rahul","email":"rahul@mail.com","password":"secret123"}'
 curl -X POST localhost:8080/register -d '{"name":"Priya","email":"priya@mail.com","password":"secret123"}'
 
